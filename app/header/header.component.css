@@ -1,0 +1,34 @@
+.navbar{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url('src/app/imagenes/devops.jpg');
+    background-position: -500px -600px;
+    animation: backBanner 9s alternate-reverse infinite;
+
+
+
+}
+
+.bold-text {
+    font-weight: bold;
+  }
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px;
+    text-decoration: solid;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+@keyframes backBanner {
+    0%{
+        background-position: 0px 0px;
+    }
+    100%{
+        background-position: -500px -600px;
+
+    }
+}
